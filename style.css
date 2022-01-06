@@ -1,0 +1,663 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Antique+B1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Road+Rage&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yuji+Boku&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+body{
+    background-image:url("https://github.com/Nowhere44/photo/blob/main/jig.jpg?raw=true");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment: scroll, local;
+    background-position:center;
+    margin:0;
+    padding:0;
+    image-rendering: -webkit-optimize-contrast;
+    background-position:50% 50%;
+}
+
+
+.before-nav{
+    font-size:50px;
+    text-align:center;
+    color:white;
+    font-family: 'Road Rage', cursive;
+}
+
+.before-nav:hover span{
+    display:none;
+}
+
+.before-nav:hover:before {content:"Horreur!";
+    animation-duration:5s;
+    animation-name:gauche;
+    font-size:200px;
+    color:red;
+    text-shadow:
+            4px 4px 1px #300000,
+            4px 6px 1px #400000,
+            4px 8px 1px #500000,
+            4px 10px 1px #600000,
+            4px 12px 1px #700000,
+            4px 14px 1px #800000,
+            4px 16px 1px #900000,
+            4px 18px 1px #A00000,
+            4px 20px 1px #B00000,
+            4px 22px 1px #C00000,
+            4px 24px 1px #D00000,
+            4px 26px 1px #E00000,
+            4px 28px 1px #F00000,
+            4px 30px 1px #FA0000,
+            4px 32px 1px #FB0000,
+            4px 34px 1px #FC0000,
+            4px 36px 1px #FD0000,
+            4px 38px 1px #FE0000,
+            4px 40px 2px #FF0000;
+    transform: scale3d(0.5, 1, 1.7);
+    transform: scale3d(1, 1, 1);
+}
+
+.before-nav:hover{
+    background-image:url("https://www.affairesdegars.com/webroot/usr_img/2014-10/Octobre_2014/Semaine%205/poltergeist-1982-gif.gif");
+    background-size:100% 100%;
+    background-repeat:no-repeat;
+
+}
+
+#searchbar {
+    position:relative;
+    left:650px ;
+    margin-top:10px
+}
+
+.formulaire{
+    display:inline-block;
+}
+.formulaire .champ{
+    width:150px;
+    height:15px;
+}
+.formulaire .bouton{
+    background-image: url("https://image.shutterstock.com/image-vector/magnifying-glass-search-icon-flat-260nw-738763579.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: 32px;
+    height: 28px;
+    padding: 0;
+}
+
+
+.navbar {
+    overflow: hidden;
+    background-color: #5B5F67;
+    font-family: Arial;
+
+
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin:0;
+    font-family: 'Shippori Antique B1', sans-serif;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+    font-family: 'Shippori Antique B1', sans-serif;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: black;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    font-family: 'Shippori Antique B1', sans-serif;;
+
+}
+
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+.nav-milieu{
+    font-size:30px;
+    text-align:center;
+    font-family:;
+    margin:px;
+    height:80px;
+    width:100%;
+    text-shadow: 5px 5px 2px gray, 0 0 1em gray, 0 0 0.2em blue;
+    color:white;
+
+
+}
+
+.nav-milieu:hover h4{
+    display:none;
+}
+
+.nav-milieu:hover:before {content:" Pour dévoiler le message cliquez sur le seul mot en bas de de page. .";
+    display:block;
+    color:white;
+    background-image:url("https://media.istockphoto.com/videos/red-cat-eyes-blinking-loop-video-id1030998560?s=640x640");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+    height:70px;
+    width:100%;
+    text-align:center;
+    margin-top:0px;
+    padding:0px;
+    font-size:25px;
+    transform: rotate(0.5turn);
+    text-shadow: black 0px 0px;
+
+
+}
+
+.nav-2{
+    border-top:1px solid black;
+    width:100%;
+    height:40px;
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+    opacity:0.7;
+    display:flex;
+}
+.nav-2 h1{
+    font-size:25px;
+    font-family: 'Anton', sans-serif;
+    color:;
+    opacity:1;
+    font-weight:900;
+    margin-top:1px;
+    margin-left:5px;
+}
+
+.nav-2 h2{
+    font-size:20px;
+    margin-top:10px;
+    color:white;
+
+}
+
+.texture{
+    box-shadow:5px 5px 5px #5A150A;
+    height:280px;
+    width:250px;
+    margin-top:30px;
+    margin-left:10px;
+    margin:10px;
+    background-size:250px 280px;
+    background-repeat:no-repeat;
+    opacity:;
+    border-radius:5px 5px 5px 5px;
+
+
+
+}
+.texture:hover .description{
+    background-size:500px 500px;
+    background-repeat:no-repeat;
+    border-radius:10px 10px 10px 10px;
+
+}
+
+.packet-1 .bouton{
+    border:1px solid black;
+    border-radius:5px 5px 5px 5px;
+    background-color:black;
+    color:white;
+    text-decoration:none;
+    display:none;
+    height:300px;
+
+
+}
+
+.packet-2 .bouton{
+    border:1px solid black;
+    border-radius:5px 5px 5px 5px;
+    background-color:black;
+    color:white;
+    text-decoration:none;
+    display:none;
+    height:300px;
+
+}
+
+.packet-3 .bouton{
+    border:1px solid black;
+    border-radius:5px 5px 5px 5px;
+    background-color:black;
+    color:white;
+    text-decoration:none;
+    display:none;
+    height:300px;
+
+}
+
+.packet-4 .bouton{
+    border:1px solid black;
+    border-radius:5px 5px 5px 5px;
+    background-color:black;
+    color:white;
+    text-decoration:none;
+    display:none;
+    height:300px;
+
+}
+
+.packet-5 .bouton{
+    border:1px solid black;
+    border-radius:5px 5px 5px 5px;
+    background-color:black;
+    color:white;
+    text-decoration:none;
+    display:none;
+    height:300px;
+
+}
+
+.packet-6 .bouton{
+    border:1px solid black;
+    border-radius:5px 5px 5px 5px;
+    background-color:black;
+    color:white;
+    text-decoration:none;
+    display:none;
+    height:300px;
+
+}
+
+.packet-7 .bouton{
+    border:1px solid black;
+    border-radius:5px 5px 5px 5px;
+    background-color:black;
+    color:white;
+    text-decoration:none;
+    display:none;
+    height:300px;
+
+}
+
+.packet-8 .bouton{
+    border:1px solid black;
+    border-radius:5px 5px 5px 5px;
+    background-color:black;
+    color:white;
+    text-decoration:none;
+    display:none;
+    height:300px;
+
+}
+
+.packet-9 .bouton{
+    border:1px solid black;
+    border-radius:5px 5px 5px 5px;
+    background-color:black;
+    color:white;
+    text-decoration:none;
+    display:none;
+    height:300px;
+
+}
+
+.packet-10 .bouton{
+    border:1px solid black;
+    border-radius:5px 5px 5px 5px;
+    background-color:black;
+    color:white;
+    text-decoration:none;
+    display:none;
+    height:300px;
+
+}
+
+.packet-11 .bouton{
+    border:1px solid black;
+    border-radius:5px 5px 5px 5px;
+    background-color:black;
+    color:white;
+    text-decoration:none;
+    display:none;
+    height:300px;
+
+}
+
+.packet-12 .bouton{
+    border:1px solid black;
+    border-radius:5px 5px 5px 5px;
+    background-color:black;
+    color:white;
+    text-decoration:none;
+    display:none;
+    height:300px;
+
+}
+
+.packet-1{
+    order:-1px;
+    background-image:url("https://cinedweller.com/wp-content/uploads/2020/02/psychose-blu-ray-2013.jpg");
+
+}
+
+.packet-1:hover .bouton {
+    background-image:url("https://i.gifer.com/origin/19/19169dc7248e3a1f964a848ee108c394_w200.gif");
+    background-size:cover;
+    background-repeat:no-repeat;
+    display: block;
+}
+
+.packet-2{
+    background-image:url("https://fr.web.img6.acsta.net/pictures/18/08/28/17/24/3107976.jpg");
+}
+
+.packet-2:hover  .bouton{
+    background-image:url("https://64.media.tumblr.com/79d5337d3f606e64b366117cf32d7462/91963216ee22e035-fc/s540x810/8e4f052bcf203a78e2666056fc4b8db3c6720d8a.gifv");
+    display:block;
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+.packet-3{
+    background-image:url("https://fr.web.img2.acsta.net/medias/nmedia/00/02/52/19/misery.jpg");
+}
+
+.packet-3:hover .bouton{
+    background-image:url("https://c.tenor.com/pJ1TQdALHpsAAAAC/zz-misery.gif");
+    display:block;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+}
+
+.packet-4{
+    background-image:url("https://fr.web.img5.acsta.net/medias/nmedia/18/65/19/82/18835952.jpg");
+}
+
+.packet-4:hover .bouton{
+    background-image:url("https://img.filmsactu.net/datas/films/l/e/l-exorciste-version-d-origine/n/l-exorciste-version-d-origine-gif-542ade93c2c26.gif");
+    display:block;
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+.packet-5{
+    background-image:url("https://www.avoir-alire.com/IMG/arton34568.jpg");
+
+}
+
+.packet-5:hover .bouton{
+    background-image:url("https://68.media.tumblr.com/8306e3a309303f690db3cbe7f110d145/tumblr_okqin6agYJ1uku5qio1_500.gif");
+    display:block;
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+.packet-6{
+    background-image:url("https://fr.web.img2.acsta.net/pictures/16/06/09/15/03/093948.jpg");
+
+}
+
+.packet-6:hover .bouton{
+    background-image:url("https://68.media.tumblr.com/1d9f4be63cb169ccd3371914be012fbb/tumblr_olp4nscS021vyvg1co7_400.gif");
+    display:block;
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+.packet-7{
+    background-image:url("https://fr.web.img4.acsta.net/pictures/19/04/01/10/29/5088987.jpg");
+
+}
+
+.packet-7:hover .bouton{
+    background-image:url("https://c.tenor.com/8KsacK_5nHMAAAAC/scary-bright-burn.gif");
+    display:block;
+    background-size:cover;
+    background-repeat:no-repeat;
+
+}
+
+.packet-8{
+    background-image:url("https://fr.web.img4.acsta.net/pictures/17/07/12/09/50/194437.jpg");
+}
+
+.packet-8:hover .bouton{
+    background-image:url("https://i.gifer.com/6Vf3.gif");
+    display:block;
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+.packet-9{
+    background-image:url("https://www.ecranlarge.com/media/cache/1600x1200/uploads/image/001/194/hsalsfdfmxnlna88cerzlwyecra-920.jpg");
+}
+
+.packet-9:hover .bouton{
+    background-image:url("https://c.tenor.com/D8SiXwEvNZMAAAAC/christine.gif");
+    display:block;
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+.packet-10{
+    background-image:url("https://media.services.cinergy.ch/media/box1600/f654983b79d649d27c92843d904d9dc9da4f964b.jpg");
+}
+
+.packet-10:hover .bouton{
+    background-image:url("https://c.tenor.com/UUV3V-Y07o8AAAAC/it-movie-it-movie-gi-fs.gifhttps://c.tenor.com/UUV3V-Y07o8AAAAC/it-movie-it-movie-gi-fs.gif");
+    display:block;
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+.packet-11{
+    background-image:url("https://fr.web.img6.acsta.net/medias/nmedia/18/35/10/16/affiche1.jpg");
+}
+
+.packet-11:hover .bouton{
+    background-image:url("https://i.pinimg.com/originals/7d/d8/3b/7dd83b08941fbb78a383be29f5f7eccb.gif");
+    display:block;
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+.packet-12{
+    background-image:url("https://media.senscritique.com/media/000020035993/source_big/Frozen.jpg");
+}
+
+.packet-12:hover .bouton{
+    background-image:url("https://petitsfilmsentreamisdotnet.files.wordpress.com/2014/01/200-412.gif");
+    display:block;
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+.super-1{
+    width:100%;
+    display:flex;
+    justify-content:center;
+    justify-content:;
+    position:fixed;
+    position:sticky;
+    position: -webkit-sticky;
+    top: -1px;
+    overflow: hidden;
+    animation-duration:10s;
+    animation-name:droite;
+
+}
+
+@keyframes droite{
+    from{
+        margin-left:100%;
+        width:200%;
+    }
+
+    to{
+        margin-left:0%;
+        width:100%;
+
+    }
+
+}
+
+
+@keyframes gauche{
+    from{
+        margin-left:-100%;
+        width:200%;
+    }
+
+    to{
+        margin-left:0%;
+        width:100%;
+
+    }
+
+}
+
+
+.super-2{
+    width:100%;
+    display:flex;
+    justify-content:center;
+    position:fixed;
+    position:sticky;
+    position: -webkit-sticky;
+    top: -1px;
+    overflow: hidden;
+    animation-duration:10s;
+    animation-name:droite;
+}
+
+.super-3{
+    width:100%;
+    display:flex;
+    justify-content:center;
+    position:fixed;
+    position:sticky;
+    position: -webkit-sticky;
+    top: -1px;
+    overflow: hidden;
+    animation-duration:10s;
+    animation-name:droite;
+}
+
+.super-4{
+    width:100%;
+    display:flex;
+    justify-content:center;
+    position:fixed;
+    position:sticky;
+    position: -webkit-sticky;
+    top:0;
+    overflow: hidden;
+    animation-duration:10s;
+    animation-name:droite;
+}
+
+
+.nav-after{
+    height:100px;
+    width:100%;
+    background-color:black;
+    opacity: 0.33;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+}
+
+span{
+    color:white;
+
+}
+
+.presentation{
+    display:flex;
+    heigth:100px;
+    width:100%;
+    background-image:url("https://www.espacebuzz.com/assets/ckeditor/2014/oct/1307/originale/740_espacebuzz542bf2e4938d0.gif");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+    box-shadow: 10px 10px 10px red;
+}
+
+.presentation img{
+
+    heigth:100%;
+    width:200px;
+    margin-right:150px;
+    border-radius:300px 1500px 300px 800px;
+}
+
+.texte{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    color:white;
+    justify-content:space-between;
+
+}
+.texte h1{
+    text-align:center;
+    font-size:25px;
+}
+
+.texte h2{
+    text-align:center;
+    font-size:20px;
+}
+
+.nav-after .surprise{
+    text-decoration:none;
+
+}
